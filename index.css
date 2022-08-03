@@ -1,0 +1,357 @@
+body {
+    background-color: #1F2937;
+    background-size: cover;
+    background-position: center;
+    padding-top: 115px;
+    text-align: center;
+}
+
+.psw-heading {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#rnd-psw {
+    color: #4ADF86;
+}
+
+.psw-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#psw-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.generate-button {
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    width: 210px;
+    height: 42px;
+    cursor: pointer;
+    margin-top: 51px;
+}
+
+.reset-button {
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    width: 210px;
+    height: 42px;
+    cursor: pointer;
+    margin-top: 51px;
+}
+
+#psw-line {
+    border: 1px solid #2F3E53;
+    width: 470px;
+    margin: 35px auto 0 auto;
+}
+
+#psw-input {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+#input-one {
+    background: #273549;
+    width: 211px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 50px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 4px 10px;
+    text-align: center;
+}
+
+#input-two {
+    background: #273549;
+    width: 211px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 50px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 4px 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .psw-heading {
+        font-size: 22px;
+    }
+
+    .psw-text {
+        font-size: 17px;
+    }
+
+    #psw-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .generate-button {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 15px 8px 15px;
+        width: 182px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .reset-button {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 15px 8px 15px;
+        width: 182px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    #psw-line {
+        width: 290px;
+        margin: 45px auto 0 auto;
+    }
+
+    #psw-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #input-one {
+        width: 200px;
+        height: 31px;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    #input-two {
+        width: 200px;
+        height: 31px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 481px) {
+    body {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .psw-heading {
+        font-size: 24px;
+    }
+
+    .psw-text {
+        font-size: 17px;
+    }
+
+    #psw-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .generate-button {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 15px 8px 15px;
+        width: 185px;
+        height: 41px;
+        margin-top: 11px;
+    }
+
+    .reset-button {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 15px 8px 15px;
+        width: 185px;
+        height: 41px;
+        margin-top: 20px;
+    }
+
+    #psw-line {
+        width: 320px;
+        margin: 45px auto 0 auto;
+    }
+
+    #psw-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #input-one {
+        width: 200px;
+        height: 32px;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    #input-two {
+        width: 200px;
+        height: 32px;
+        margin-top: 6px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    body {
+        text-align: center;
+        padding-top: 90px;
+    }
+    .psw-heading {
+        font-size: 25px;
+    }
+
+    .psw-text {
+        font-size: 18px;
+    }
+
+    #psw-button {
+        display: flex;
+        gap: 10px;
+    }
+
+    .generate-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 190px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    .reset-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 190px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    #psw-line {
+        width: 350px;
+        margin: 45px auto 0 auto;
+    }
+
+    #psw-input {
+        display: flex;
+    }
+
+    #input-one {
+        width: 200px;
+        height: 32px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    #input-two {
+        width: 200px;
+        height: 32px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+    body {
+        text-align: center;
+        padding-top: 90px;
+    }
+    .psw-heading {
+        font-size: 27px;
+    }
+
+    .psw-text {
+        font-size: 19px;
+    }
+
+    #psw-button {
+        display: flex;
+        gap: 10px;
+    }
+
+    .generate-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 210px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    .reset-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 210px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    #psw-line {
+        width: 380px;
+        margin: 45px auto 0 auto;
+    }
+
+    #psw-input {
+        display: flex;
+    }
+
+    #input-one {
+        width: 220px;
+        height: 32px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    #input-two {
+        width: 220px;
+        height: 32px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+}
