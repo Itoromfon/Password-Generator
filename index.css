@@ -49,6 +49,21 @@ body {
     margin-top: 20px;
 }
 
+.copy-button {
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    width: 230px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 .reset-button {
     background: #10B981;
     font-family: 'Inter', sans-serif;
@@ -194,6 +209,15 @@ label {
         margin-top: 10px;
     }
 
+    .copy-button {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 15px 8px 15px;
+        width: 210px;
+        height: 41px;
+        margin-top: 20px;
+    }
+
     .reset-button {
         font-weight: 500;
         font-size: 16px;
@@ -277,6 +301,15 @@ label {
         margin-top: 11px;
     }
 
+    .copy-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 215px;
+        height: 41px;
+        margin-top: 20px;
+    }
+
     .reset-button {
         font-weight: 500;
         font-size: 17px;
@@ -346,6 +379,8 @@ label {
 
     #psw-button {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
 
@@ -353,7 +388,16 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 215px;
+        width: 230px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    .copy-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 230px;
         height: 42px;
         margin-top: 20px;
     }
@@ -362,7 +406,7 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 215px;
+        width: 230px;
         height: 42px;
         margin-top: 20px;
     }
@@ -379,20 +423,21 @@ label {
     #input-one {
         width: 210px;
         height: 35px;
-        margin-top: 50px;
+        margin-top: 30px;
         font-size: 15px;
     }
 
     #input-two {
         width: 210px;
         height: 35px;
-        margin-top: 50px;
+        margin-top: 30px;
         font-size: 15px;
     }
 
     fieldset {
         width: 290px;
         height: 162px;
+        margin-top: 10px;
         margin-bottom: 110px;
     }
 
@@ -432,7 +477,16 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 215px;
+        width: 210px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    .copy-button {
+        font-weight: 500;
+        font-size: 17px;
+        padding: 8px 15px 8px 15px;
+        width: 200px;
         height: 42px;
         margin-top: 20px;
     }
@@ -441,7 +495,7 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 215px;
+        width: 210px;
         height: 42px;
         margin-top: 20px;
     }
@@ -458,20 +512,21 @@ label {
     #input-one {
         width: 220px;
         height: 32px;
-        margin-top: 50px;
+        margin-top: 30px;
         font-size: 15px;
     }
 
     #input-two {
         width: 220px;
         height: 32px;
-        margin-top: 50px;
+        margin-top: 30px;
         font-size: 15px;
     }
 
     fieldset {
         width: 310px;
         height: 162px;
+        margin-top: 15px;
         margin-bottom: 110px;
     }
 
@@ -487,3 +542,20 @@ label {
         font-size: 20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
