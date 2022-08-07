@@ -49,21 +49,6 @@ body {
     margin-top: 20px;
 }
 
-.copy-button {
-    background: #10B981;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 6px;
-    padding: 9px 17px 9px 15px;
-    width: 230px;
-    height: 45px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
 .reset-button {
     background: #10B981;
     font-family: 'Inter', sans-serif;
@@ -124,8 +109,44 @@ body {
     text-align: center;
 }
 
+#copy-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.copy-button1 {
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    width: 190px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.copy-button2 {
+    background: #10B981;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    width: 190px;
+    height: 37px;
+    cursor: pointer;
+}
+
 fieldset {
-    margin: 0 auto;
+    margin: 0 auto 110px auto; 
     width: 500px;
     height: 140px;
     border: 1px solid #2F3E53;
@@ -209,15 +230,6 @@ label {
         margin-top: 10px;
     }
 
-    .copy-button {
-        font-weight: 500;
-        font-size: 16px;
-        padding: 8px 15px 8px 15px;
-        width: 210px;
-        height: 41px;
-        margin-top: 20px;
-    }
-
     .reset-button {
         font-weight: 500;
         font-size: 16px;
@@ -252,10 +264,28 @@ label {
         font-size: 15px;
     }
 
+    #copy-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .copy-button1 {
+        font-size: 14px;
+        width: 185px;
+        height: 35px;
+    }
+    
+    .copy-button2 {
+        font-size: 14px;
+        width: 185px;
+        height: 35px;
+    }
+
     fieldset {
         width: 270px;
         height: 155px;
-        margin-bottom: 100px;
     }
 
     .psw-length {
@@ -301,15 +331,6 @@ label {
         margin-top: 11px;
     }
 
-    .copy-button {
-        font-weight: 500;
-        font-size: 17px;
-        padding: 8px 15px 8px 15px;
-        width: 215px;
-        height: 41px;
-        margin-top: 20px;
-    }
-
     .reset-button {
         font-weight: 500;
         font-size: 17px;
@@ -344,10 +365,28 @@ label {
         font-size: 15px;
     }
 
+    #copy-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .copy-button1 {
+        font-size: 14px;
+        width: 186px;
+        height: 36px;
+    }
+    
+    .copy-button2 {
+        font-size: 14px;
+        width: 186px;
+        height: 36px;
+    }
+
     fieldset {
         width: 280px;
         height: 160px;
-        margin-bottom: 110px;
     }
 
     .psw-length {
@@ -379,8 +418,6 @@ label {
 
     #psw-button {
         display: flex;
-        flex-direction: column;
-        align-items: center;
         gap: 10px;
     }
 
@@ -388,16 +425,7 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 230px;
-        height: 42px;
-        margin-top: 20px;
-    }
-
-    .copy-button {
-        font-weight: 500;
-        font-size: 17px;
-        padding: 8px 15px 8px 15px;
-        width: 230px;
+        width: 215px;
         height: 42px;
         margin-top: 20px;
     }
@@ -406,7 +434,7 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 230px;
+        width: 215px;
         height: 42px;
         margin-top: 20px;
     }
@@ -423,22 +451,39 @@ label {
     #input-one {
         width: 210px;
         height: 35px;
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 15px;
     }
 
     #input-two {
         width: 210px;
         height: 35px;
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 15px;
+    }
+
+    #copy-button {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .copy-button1 {
+        font-size: 14px;
+        width: 186px;
+        height: 36px;
+    }
+    
+    .copy-button2 {
+        font-size: 14px;
+        width: 186px;
+        height: 36px;
     }
 
     fieldset {
         width: 290px;
         height: 162px;
-        margin-top: 10px;
-        margin-bottom: 110px;
     }
 
     .psw-length {
@@ -477,16 +522,7 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 210px;
-        height: 42px;
-        margin-top: 20px;
-    }
-
-    .copy-button {
-        font-weight: 500;
-        font-size: 17px;
-        padding: 8px 15px 8px 15px;
-        width: 200px;
+        width: 215px;
         height: 42px;
         margin-top: 20px;
     }
@@ -495,7 +531,7 @@ label {
         font-weight: 500;
         font-size: 17px;
         padding: 8px 15px 8px 15px;
-        width: 210px;
+        width: 215px;
         height: 42px;
         margin-top: 20px;
     }
@@ -512,22 +548,39 @@ label {
     #input-one {
         width: 220px;
         height: 32px;
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 15px;
     }
 
     #input-two {
         width: 220px;
         height: 32px;
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 15px;
+    }
+
+    #copy-button {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .copy-button1 {
+        font-size: 14px;
+        width: 186px;
+        height: 36px;
+    }
+    
+    .copy-button2 {
+        font-size: 14px;
+        width: 186px;
+        height: 36px;
     }
 
     fieldset {
         width: 310px;
         height: 162px;
-        margin-top: 15px;
-        margin-bottom: 110px;
     }
 
     .psw-length {
@@ -541,7 +594,7 @@ label {
     .psw-characters {
         font-size: 20px;
     }
-}
+} 
 
 
 
