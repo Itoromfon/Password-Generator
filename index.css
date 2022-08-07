@@ -281,6 +281,7 @@ label {
         font-size: 14px;
         width: 185px;
         height: 35px;
+        margin-top: 15px;
     }
 
     fieldset {
@@ -382,6 +383,7 @@ label {
         font-size: 14px;
         width: 186px;
         height: 36px;
+        margin-top: 15px;
     }
 
     fieldset {
@@ -464,7 +466,7 @@ label {
 
     #copy-button {
         display: flex;
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
         margin: 10px 0px 20px 0px;
     }
@@ -561,7 +563,7 @@ label {
 
     #copy-button {
         display: flex;
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
         margin: 10px 0px 20px 0px;
     }
