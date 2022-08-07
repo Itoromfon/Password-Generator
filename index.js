@@ -32,11 +32,15 @@ function randomPassword() {
     inputTwo.textContent += generatePasswordTwo
 }
 
-function copyText() {
+function copyPasswordOne() {
     const cb = navigator.clipboard;
-    const copyTextOne = document.getElementById("input-one");
-    const copyTextTwo = document.getElementById("input-two");
+    const copyTextOne = document.querySelector("#input-one");
     cb.writeText(copyTextOne.textContent).then(() => alert("Text copied"));
+}
+
+function copyPasswordTwo() {
+    const cb = navigator.clipboard;
+    const copyTextTwo = document.querySelector("#input-two");
     cb.writeText(copyTextTwo.textContent).then(() => alert("Text copied"));
 }
 
