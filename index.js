@@ -16,7 +16,7 @@ let symbolsEl = document.getElementById("symbols")
 function randomPassword() {
     inputOne.textContent = ""
     inputTwo.textContent = ""
-    const passwordLength =+pswLengthEl.value;
+    const passwordLength = pswLengthEl.value;
     const nums = numbersEl.checked ? [...numbers] : [];
     const syms = symbolsEl.checked ? [...special] : [];
     const availableChars = [...letters, ...nums, ...syms];
@@ -26,10 +26,18 @@ function randomPassword() {
     for (let i = 0; i < passwordLength; i++) {
         generatePasswordOne += availableChars[ Math.floor( Math.random() * availableChars.length ) ]
         generatePasswordTwo += availableChars[ Math.floor( Math.random() * availableChars.length ) ]
-        console.log(generatePasswordTwo)  
+        // console.log(generatePasswordTwo)  
     }
     inputOne.textContent += generatePasswordOne
     inputTwo.textContent += generatePasswordTwo
+}
+
+function copyText() {
+    const cb = navigator.clipboard;
+    const copyTextOne = document.getElementById("input-one");
+    const copyTextTwo = document.getElementById("input-two");
+    cb.writeText(copyTextOne.textContent).then(() => alert("Text copied"));
+    cb.writeText(copyTextTwo.textContent).then(() => alert("Text copied"));
 }
 
 function resetPassword() {
